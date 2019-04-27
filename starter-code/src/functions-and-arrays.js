@@ -1,5 +1,15 @@
 // Find the maximum
 
+function maxOfTwoNumbers( parametro1, parametro2 ){
+  if( parametro1 > parametro2 ){
+    return parametro1
+  }else if( parametro2 > parametro1){
+    return parametro2
+  }else{
+    return parametro1
+  }
+}
+
 // Finding Longest Word
 var words = [
   'mystery',
